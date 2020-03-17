@@ -1,0 +1,54 @@
+.Header {
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+        'logo empty signin'
+        'logo info cart';
+        
+    background-color: #778899;
+    min-height: 4em;
+    color: #F8F8FF;
+    padding-bottom: 0.5em;
+}
+
+.Header a {
+    color: #F8F8FF;
+}
+
+
+.Header--logo {
+    grid-area: logo;
+    text-align: left;
+}
+
+.Header--storeInfo {
+    grid-area: info;
+}
+
+.Header--storeInfo--name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.Header--cart {
+    grid-area: cart;
+    align-self: end;
+    text-align: right;
+    padding-top: 0.5em;
+    padding-right: 3em;
+}
+
+.Header--cart > img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.Header--signIn {
+    grid-area: signin;
+    text-align: right;
+    padding: 0 0.5em;
+    font-size: 14px;
+    line-height: 21px;
+}

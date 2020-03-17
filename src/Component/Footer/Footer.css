@@ -1,0 +1,28 @@
+.Footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+        'cc .'
+        'cc text'
+        'cc .';
+    margin: 0 3em;
+}
+
+.Footer .Footer--cc {
+    grid-area: cc;
+    height: 127px;
+    width: 200px;
+}
+
+.Footer .Footer--text {
+    padding: 0 0.5em;
+    grid-area: text;
+    background-color: #778899;
+    align-self: center;
+    height: 4.5em;
+    text-align: left;
+    line-height: 4.5em;
+    color: white;
+    font-size: 24px;
+}

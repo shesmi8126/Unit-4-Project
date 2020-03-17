@@ -1,0 +1,5 @@
+.Home {
+    margin-top: 4.5em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

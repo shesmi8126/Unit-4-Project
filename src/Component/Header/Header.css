@@ -19,6 +19,7 @@
 .Header--logo {
     grid-area: logo;
     text-align: left;
+    padding-top: 1em;
 }
 
 .Header--storeInfo {
